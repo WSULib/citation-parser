@@ -26,7 +26,7 @@ Crossref deposit will require that the key for each <citation> element reference
 
 Copy the results and paste entirely over the contents of freecite.data.processed.xml.
 
-For each <citation> in freecite.data.processed.xml
+For each \<citation\> in freecite.data.processed.xml
 
 		- Compare <raw_string> to the two <full_citation> elements.
 
