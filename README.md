@@ -32,7 +32,7 @@ For each \<citation\> in freecite.data.processed.xml
 
 - If one of these is a match, change the name of the associated \<doi\> element to \<doi_yes\>. You can just paste '_yes' after the name. Otherwise, leave both alone.
 
-- You might need to test a doi at http://dx.doi.org/[doi] to see if it goes where you think
+- You might need to test a doi at https://doi.org/[doi] to see if it goes where you think
 
 - You can edit fields directly here; add an \<edition_number\>, \<series_title\>, or \<issue\>, change \<raw_string\> to \<unstructured_citation\> if necessary
 
