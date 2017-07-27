@@ -5,14 +5,11 @@ Crossref requires that members use resource DOIs wherever possible. When assigni
 
 Required:
 
-  XML editor/parser (Oxygen)
-  
+  XML editor/parser (Oxygen)  
   Text Editor (Sublime Text, Textwrangler)
 
-  citation.parser.plus.0.2.php
-
-  citations.xsl + freecite.data.xml
-
+  citation.parser.plus.0.2.php  
+  citations.xsl + freecite.data.xml  
   citations.processed.xsl + freecite.data.processed.xml
 
 # ARTICLE-LEVEL WORK
