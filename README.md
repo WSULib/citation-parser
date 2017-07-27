@@ -9,7 +9,7 @@ Crossref requires that members use resource DOIs wherever possible. When assigni
   Text Editor (Sublime Text, Textwrangler)
 
   citation.parser.plus.0.2.php  
-  citations.xsl (+ freecite.data.xml) 
+  citations.xsl (+ freecite.data.xml)  
   citations.processed.xsl (+ freecite.data.processed.xml)
 
 ## ARTICLE-LEVEL WORK
