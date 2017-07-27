@@ -6,11 +6,14 @@ Crossref requires that members use resource DOIs wherever possible. When assigni
 Required:
 
   XML editor/parser (Oxygen)
-	Text Editor (Sublime Text, Textwrangler)
+  
+  Text Editor (Sublime Text, Textwrangler)
 
   citation.parser.plus.0.2.php
-	citations.xsl + freecite.data.xml
-	citations.processed.xsl + freecite.data.processed.xml
+
+  citations.xsl + freecite.data.xml
+
+  citations.processed.xsl + freecite.data.processed.xml
 
 # ARTICLE-LEVEL WORK
 
@@ -28,17 +31,17 @@ Copy the results and paste entirely over the contents of freecite.data.processed
 
 For each \<citation\> in freecite.data.processed.xml
 
-		- Compare \<raw_string\> to the two \<full_citation\> elements.
+- Compare \<raw_string\> to the two \<full_citation\> elements.
 
-		- If one of these is a match, change the name of the associated \<doi\> element to \<doi_yes\>. You can just paste '_yes' after the name. Otherwise, leave both alone.
+- If one of these is a match, change the name of the associated \<doi\> element to \<doi_yes\>. You can just paste '_yes' after the name. Otherwise, leave both alone.
 
-			- You might need to test a doi at http://dx.doi.org/[doi] to see if it goes where you think
+- You might need to test a doi at http://dx.doi.org/[doi] to see if it goes where you think
 
-			- You can edit fields directly here; add an \<edition_number\>, \<series_title\>, or \<issue\>, change \<raw_string\> to \<unstructured_citation\> if necessary
+- You can edit fields directly here; add an \<edition_number\>, \<series_title\>, or \<issue\>, change \<raw_string\> to \<unstructured_citation\> if necessary
 
-			- Wiley, Springer, and Elsevier imprints may sometimes have a DOI that can be found through their respective sites
+- Wiley, Springer, and Elsevier imprints may sometimes have a DOI that can be found through their respective sites
 
-			- Sometimes both \<full_citations\> will match \<raw_string\>, and the task is to determine the better doi
+- Sometimes both \<full_citations\> will match \<raw_string\>, and the task is to determine the better doi
 
 After you've gone entirely through each \<citation\>, save freecite.data.processed.xml.
 
